@@ -1,5 +1,5 @@
 FROM nginx
 
-COPY sites-enabled /etc/nginx/sites-enabled
+COPY term.ws.conf /etc/nginx/conf.d/term.ws.conf
 
 COPY html /usr/share/nginx/html
