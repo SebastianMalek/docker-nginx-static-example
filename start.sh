@@ -1,2 +1,2 @@
-docker build .
-docker run --name website -d -p 80:80 nginx
+docker build -t website .
+docker run -t -d -p 80:80 -i website
